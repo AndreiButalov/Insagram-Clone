@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="icon" type="images/x-icon" href="./img/gallery-1727481_640.png"/>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="renderLike()">
+    <div class="navbar">
+        <img class="hamburger" src="./img/Hamburger_icon.svg.png" alt="" onclick="hiddenMenu()">
+        <div class="nav_right">
+          <p>FOTOGRAM</p>
+          <img class="logo" src="./img/gallery-1727481_640.png" alt="" />
+      </div>      
+    </div>
+    <div class="content">
+      <div class="sidebar">
+        <div id="hidden_menu" class="hidden">
+          <ul>
+            <li><a href="./index.html"><img class="a_logo" src="./img/gallery-1727481_640.png" alt=""><p>START</p></a></li>
+            <li><a href="./like.html"><img class="a_herz" src="./img/heart-37458_640.png" alt=""><p>LIKE</p></a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="post" class="post"></div>
+    </div> 
+  </body>
+</html>
